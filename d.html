@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        {
+            color:blue;
+        }
+        h2{
+            color:blue;
+        }
+        body{
+            color:white;
+        }
+        div{
+            background-color: red;
+            border-style: dashed;
+            border-color: black;
+            font-style: normal;
+        }
+    </style>
+ </head>
+ <body>
+   <h2><center><u>Student Registration Form Using Table in HTML</u></center></h2>
+   <div>
+<form>
+        <table>
+            <tr>
+                <td><label for="firstName">First Name:</label></td>
+                <td><input type="text" placeholder="Ruchika" id="firstName" name="firstName">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="lastName">Last Name:</label></td>
+                <td><input type="text" placeholder="Sahoo" id="lastName" name="lastName">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Id:</label></td>
+                <td><input type="email" placeholder="ruchika.sahoo17@gmail.com"id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="quantity">Mobile Number:</label></td>
+                <td><input type="number" placeholder="83277xxxx" id="quantity" name="quantity">(10 Digits Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td><input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth(DOB):</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td><input type="text" placeholder="Keonjhar" id="city" name="city">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="quantity">Pin code:</label></td>
+                <td><input type="number" placeholder="758002" id="quantity" name="quantity">(Max 6 Numbers Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="state">State:</label></td>
+                <td><input type="text" placeholder="Odisha" id="state" name="state">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td><input type="text" placeholder="India" id="country" name="country"></td>
+            </tr>
+            <tr>
+                <td><label for="hobbies">Hobbies:</label></td>
+                <td><input type="checkbox" id="hobbies" name="hobbies" value="Drawing">
+                    <label for="hobbies">Drawing</label>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="Singing">
+                    <label for="hobbies">Singing</label>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="Dancing">
+                    <label for="hobbies">Dancing</label>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="Sketching">
+                    <label for="hobbies">Sketching</label><br>
+                    <input type="checkbox" id="hobbies" name="hobbies" value="Others">
+                    <label for="hobbies">Others</label>
+                    <input type="text" placeholder="Ex-Teaching" id="hobbies" name="hobbies">(Max 50 Characters Allowed)</td>
+            </tr>
+            <tr>
+            <td><label for="qualification">Qualification:</label></td>
+            <td><input type="checkbox" id="qualification" name="qualification" value="High School(10th)">
+                <label for="qualification">High School(10th)</label><br>
+                <input type="checkbox" id="qualification" name="qualification" value="Higher School(12th)">
+                <label for="qualification">Higher School(12th)</label><br>
+                <input type="checkbox" id="qualification" name="qualification" value="Graduation(Bachelors)">
+                <label for="qualification">Graduation(Bachelors)</label><br>
+                <input type="checkbox" id="qualification" name="qualification" value="Post Graduation(Masters)">
+                <label for="qualification">Post Graduation(Masters)</label><br>
+                <input type="checkbox" id="qualification" name="qualification" value="Phd">
+                <label for="qualification">Phd</label></td>
+           </tr>
+            <tr>
+            <td><label for="courses applied for">Courses Applied For:</label></td>
+            <td><input type="checkbox" id="courses applied for" name="courses applied for" value="BCA(Bachelors of Computer Application)">
+                    <label for="courses applied for">BCA(Bachelors OF Computer Application)</label><br>
+                    <input type="checkbox" id="courses applied for" name="courses applied for" value="B.Com(Bachelors of Commerce)">
+                    <label for="courses applied for">B.Com(Bachelors OF Commerce)</label><br>
+                    <input type="checkbox" id="courses applied for" name="courses applied for" value="B.Sc(Bachelors of Science)">
+                    <label for="courses applied for">B.Sc(Bachelors of Science)</label><br>
+                    <input type="checkbox" id="courses applied for" name="courses applied for" value="BA(BachelorS of Arts)">
+                    <label for="courses applied for">BA(BachelorS of Arts)</label><br>
+                    <input type="checkbox" id="courses applied for" name="courses applied for" value="MCA(Master of Computer Application)">
+                    <label for="courses applied for">MCA(Master OF Computer Application)</label><br>
+                    <input type="checkbox" id="courses applied for" name="courses applied for" value="M.Com(Master of Computer Application)">
+                    <label for="courses applied for">MCA(Master of Computer Application)</label><br>
+                    <input type="checkbox" id="courses applied for" name="courses applied for" value="M.Sc(Master of Science)">
+                    <label for="courses applied for">M.Sc(Master of Science)</label><br>
+                    <input type="checkbox" id="courses applied for" name="courses applied for" value="MA(Master of Arts)">
+                    <label for="courses applied for">MA(Master of Arts)</label></td>
+             </tr> 
+             </table><br>
+             <center><input type="submit" value="Submit">
+                     <input type="button" value="Reset"></center>
+ </form>
+ </div>
+</body>
+</html>
